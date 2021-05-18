@@ -1,0 +1,11 @@
+Dans les cookies du site, il y  a un cookie avec un champ "I_am_admin" qui contient une valeur.
+en utilisant le site https://www.dcode.fr/identification-chiffrement
+J'ai pu voir que c'etait une valeur chiffrer en md5.
+68934A3E9455FA72420237EB05902327 = false;
+un utilisateur mal intentionné pourrait changer cet valeur par true(b326b5062b2f0e69046810717534cb09) pour avoir les acces admins.
+
+
+Comment eviter de mettre tout le monde admin: 
+
+En evitant d'utiliser un cookie chiffrer en md5 pour verifier si un utilisateur est admin.
+En utilisant une session coté serveur ou un jwt qui est deja beaucoup plus securisé vu qu'il y a une verification coté serveur.

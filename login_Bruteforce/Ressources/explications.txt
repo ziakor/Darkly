@@ -1,0 +1,16 @@
+Pour trouver les identifiant de connexion. J'ai decidé tout simplement de brute force.
+
+les deux login le plus souvent utiliser par defaut sont "root" et "admin".
+
+ensuite, j'ai utilisé 25 mot de passe communs de cette page : https://en.wikipedia.org/wiki/List_of_the_most_common_passwords
+
+grâce a un script, j'ai fait une boucle pour tester tout les mot de passe sur la page
+
+http://192.168.1.11/index.php?page=signin&username=admin&password=password&Login=Login
+
+en remplacant la valeur du champ password
+
+
+Comment se proteger du bruteforce:
+En mettant un nombre maximum d'essai, en évitant d'utiliser des mots de passe trop simple ou encore en utilisant une connexion a deux facteurs.
+
