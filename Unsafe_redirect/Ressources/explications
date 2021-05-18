@@ -1,0 +1,6 @@
+Sur les icones de redirection vers les reseaux sociaux, les urls de redirection ne sont pas proteger.
+On peut changer le site vers lequel on est rediriger.
+
+Comment se proteger?
+
+En ayant les lien de redirection en back et ne pas demander vers quelle page rediriger depuis un argument du front.

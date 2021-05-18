@@ -1,0 +1,11 @@
+En inspectant le code de la page /?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
+on decouvre en commentaire quil y a 
+
+You must cumming from : "https://www.nsa.gov/" to go to the next step
+et
+Let's use this browser: "ft_bornToSec" It will help you a lot.
+
+le user_agent contient entre autre des informations sur notre navigateur donc j'ai utiliser l'extension chrome "User-agent switcher and manager" pour modifier la valeur de mon user_agent
+
+Et pour indiquer a la page d'ou on vient(de quelle page par exemple), j'ai modifier le referrer de la requete avec l'extension "Referrer control"
+
