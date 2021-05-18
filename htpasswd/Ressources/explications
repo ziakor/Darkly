@@ -1,0 +1,7 @@
+Sur le fichier robots.txt
+
+on voit le dossier /whatever, lorsque l'on va dessus il y a un fichier htpasswd qui contient un login et un mot de passe en md5.
+apres il suffit de trouver la page admin et cest fini.
+
+Comment eviter ca :
+Ne pas mettre les logins d'admin en clair sur un fichier.
