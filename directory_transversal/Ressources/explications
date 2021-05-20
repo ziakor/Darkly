@@ -1,7 +1,0 @@
-il est possible de naviguer vers les dossiers auxquels on n'est pas censer pouvoir acceder en utilisant la "Directory traversal attack"
-en mettant "../../../../../../../../../etc/passwd" en page dans les parametres url. on peut acceder au fichier passwd de linux(/etc/passwd) qui est une grosse faille de securité
-
-comment se proteger ?
-
-En encodant les données reçues provenant du client : 
-- "%2e%2e%2f" represents "../"

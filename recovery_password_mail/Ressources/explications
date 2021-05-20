@@ -1,8 +1,0 @@
-Sur la page de recuperation de mot de passe.
-On voit qu'il y a un champ input caché avec l'email de l'admin.
-On peut surcharger la boite mail de l'admin avec un script pour envoyer en boucle des mails.
-
-Comment l'eviter
-En premier, eviter de mettre le mail de l'admin en input caché. il vaut mieux laisser l'utilisateur rentrer lui meme son adresse mail.
-
-Sinon on peut tout simplement mettre le mail de l'admin coté serveur du site.

@@ -1,7 +1,0 @@
-Il suffit juste de marquer script a linterieur du commentaire pour que ca mette le flag 🤦‍♂️
-
-
-Les failles XSS permettent d'executer du code sur le navigateur de la victime(redirection ou autre).
-
-Comment s'en proteger?
-Il suffit d'utiliser des fonctions pour echapper certains caracteres(&,<, >, ", ',etc...) avant de stocker les donnees sur le serveur;

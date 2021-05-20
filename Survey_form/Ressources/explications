@@ -1,6 +1,0 @@
-Sur le page http://192.168.1.11/?page=survey#
-
-on peut modifier la valeur que donne chaque grade du formulaire pour augmenter le nombre de vote ajouté.
-
-Comment s'en proteger?
-Verifier la valeur en back pour voir si elle est valide avant d'ajouter au nombre de vote.
